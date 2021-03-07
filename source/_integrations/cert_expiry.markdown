@@ -26,3 +26,9 @@ The Certificate Expiry entities provide extra attributes to represent the state 
 | ---- | ----------- |
 | `is_valid` | If the certificate is able to be validated: `True` / `False`.
 | `error` | A human-readable error description if the certificate is considered invalid, "None" otherwise.
+
+## Remarks
+
+The certificates are checked every 12 hours
+
+To add more than one certificate, add this certificate as a new integration, and it will be added
